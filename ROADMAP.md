@@ -1,8 +1,8 @@
 # AppLumpas
 
 - But : application de gestion pour un groupe de carnaval qui construit son char tous les samedis de septembre à janvier et participe à des cavalcades.
-- Stack : à décider
-- Dépôt : (https://github.com/Julien68480/AppLumpas)
+- Stack : back-end C# / ASP.NET Core Web API (contrôleurs), tests xUnit ; front-end React + TypeScript avec Vite, tests Vitest + React Testing Library ; base de données PostgreSQL
+- Dépôt : à créer (public, licence MIT)
 
 ## Objectif de l'application
 
@@ -45,6 +45,7 @@
 - 2026-10-15 Branches : une branche par étape, format `<type>/XX-<nom>` (ex. `feat/03-liste-membres`), fusionnée dans `main` une fois validée - raison : format professionnel tout en gardant le lien avec les étapes de la ROADMAP
 - 2026-10-15 Visibilité du dépôt : public - raison : visible par les recruteurs, montre la progression. Règles : aucun secret (mots de passe, clés) et aucune donnée réelle des membres dans le dépôt
 - 2026-10-15 .gitignore : dépôt GitHub créé vide ; `.gitignore` générés par les outils officiels (`dotnet new gitignore` pour .NET, celui de Vite pour React) - raison : fichiers officiels à jour, pas de conflit au premier envoi. À vérifier avant le premier commit : `bin/`, `obj/`, `node_modules/` exclus
+- 2026-10-15 Licence : MIT - raison : la plus courante pour un projet vitrine, simple à comprendre
 
 ## Étapes
 
