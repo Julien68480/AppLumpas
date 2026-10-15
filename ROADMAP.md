@@ -2,7 +2,7 @@
 
 - But : application de gestion pour un groupe de carnaval qui construit son char tous les samedis de septembre à janvier et participe à des cavalcades.
 - Stack : back-end C# / ASP.NET Core Web API (contrôleurs), tests xUnit ; front-end React + TypeScript avec Vite, tests Vitest + React Testing Library ; base de données PostgreSQL
-- Dépôt : à créer (public, licence MIT)
+- Dépôt : https://github.com/Julien68480/AppLumpas (public, licence MIT)
 
 ## Objectif de l'application
 
