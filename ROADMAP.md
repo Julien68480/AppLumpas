@@ -2,7 +2,7 @@
 
 - But : application de gestion pour un groupe de carnaval qui construit son char tous les samedis de septembre à janvier et participe à des cavalcades.
 - Stack : à décider
-- Dépôt : à créer
+- Dépôt : (https://github.com/Julien68480/AppLumpas)
 
 ## Objectif de l'application
 
