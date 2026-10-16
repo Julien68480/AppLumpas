@@ -1,0 +1,7 @@
+
+# Permet à Git de gérer les fichiers texte selon si l'utilisateur est sous windows/linux/Mac
+# Cela évite les conflits sur chaque ligne lors de la récupération des fichiers
+# Un utilisateur windows utilise CRLF (\r\n) les autres LF (\n)
+# Mais dans le dépôt, enregistre toujours tout en LF
+# Git ignore les fichiers binaires (images…) pour les conversions de sauts de ligne
+* text=auto
