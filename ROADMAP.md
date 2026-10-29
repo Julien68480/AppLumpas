@@ -41,7 +41,6 @@
 - 2026-10-15 Outil front-end : Vite (SPA React) - raison : correspond à l'architecture API séparée, simple et rapide, standard actuel
 - 2026-10-15 Tests front-end : Vitest + React Testing Library - raison : intégré à Vite sans configuration, même syntaxe que Jest
 - 2026-10-15 Langue : noms (classes, méthodes, variables) en anglais ; commentaires et messages de commit en français - raison : norme sur les noms, logique expliquée clairement pendant l'apprentissage
-- 2026-10-15 Messages de commit : Conventional Commits (type en anglais, description en français, ex. `feat: ajoute la liste des membres`) - raison : standard répandu en entreprise, historique lisible
 - 2026-10-15 Branches : une branche par étape, format `<type>/XX-<nom>` (ex. `feat/03-liste-membres`), fusionnée dans `main` une fois validée - raison : format professionnel tout en gardant le lien avec les étapes de la ROADMAP
 - 2026-10-15 Visibilité du dépôt : public - raison : visible par les recruteurs, montre la progression. Règles : aucun secret (mots de passe, clés) et aucune donnée réelle des membres dans le dépôt
 - 2026-10-15 .gitignore : dépôt GitHub créé vide ; `.gitignore` générés par les outils officiels (`dotnet new gitignore` pour .NET, celui de Vite pour React) - raison : fichiers officiels à jour, pas de conflit au premier envoi. À vérifier avant le premier commit : `bin/`, `obj/`, `node_modules/` exclus
@@ -61,12 +60,16 @@
 - 2026-10-29 Usage de Docker : en développement, base dans Docker et API + front lancés depuis l'IDE ; `docker compose up` lance tout le projet comme en production - raison : débogage simple au quotidien, images prêtes pour le déploiement
 - 2026-10-29 Emplacement : compose.yaml à la racine du dépôt, un Dockerfile dans backend/ et un dans frontend/ - raison : compose.yaml orchestre tout le projet, chaque partie reste autonome
 - 2026-10-29 Plan d'étapes : 38 étapes - ajout de l'étape 07 (conteneurisation), étapes suivantes renumérotées
+- 2026-10-29 Version de .NET : .NET 10 - raison : LTS (support jusqu'en novembre 2028), version la plus récente
+- 2026-10-29 Structure du back-end : à plat dans backend/ (AppLumpas.slnx, AppLumpas.Api/, AppLumpas.Api.Tests/) - raison : simple et lisible pour deux projets
+- 2026-10-29 Premier test : test unitaire du contrôleur - raison : découvrir xUnit simplement ; tests d'intégration plus tard
+- 2026-10-29 IDE C# : VS Code + C# Dev Kit - raison : déjà installé
 
 ## Étapes
 
 ### Socle technique
-- [ ] 01 Initialiser le dépôt : README, licence, .gitignore, premier commit
-- [ ] 02 Créer l'API ASP.NET Core avec une route de test, et un premier test xUnit
+- [fait] 01 Initialiser le dépôt : README, licence, .gitignore, premier commit
+- [en cours] 02 Créer l'API ASP.NET Core avec une route de test, et un premier test xUnit
 - [ ] 03 Créer le front Vite + React + TypeScript, une page d'accueil, et un premier test Vitest
 - [ ] 04 Faire appeler l'API par le front et afficher la réponse
 - [ ] 05 Lancer PostgreSQL avec Docker Compose et y connecter l'API, sans secret dans le dépôt

@@ -66,7 +66,6 @@ AppLumpas/
 ## Conventions
 
 - Noms dans le code (classes, méthodes, variables) en anglais ; commentaires et messages de commit en français.
-- Messages de commit au format [Conventional Commits](https://www.conventionalcommits.org/fr/) : `feat: ajoute la liste des membres`.
 - Une branche par étape, au format `<type>/XX-<nom>` (ex. `feat/03-liste-membres`), fusionnée dans `main` une fois validée.
 
 ## Auteur
